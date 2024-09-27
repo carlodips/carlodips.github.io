@@ -4,45 +4,163 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Carlo's Portfolio</title>
+    <title>Carlo Dipasupil</title>
   </head>
   <body>
-    <nav>
-      <div class="nav__content">
-        <div class="logo"><a href="#">carlodips.github.io</a></div>
-        <label for="check" class="checkbox">
-          <i class="ri-menu-line"></i>
-        </label>
-        <input type="checkbox" name="check" id="check" />
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact Me</a></li>
-        </ul>
+
+    <header class="sticky-header">
+      <div class="navbar">
+        <div class="logo"><a href="#">CD</a></div>
+          <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Work History</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        <div class="toggle-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
-    </nav>
+
+      <div class="dropdown-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Work History</a></li>
+        <li><a href="#">Projects</a></li>
+      </div>
+    </header>
+
     <section class="section">
       <div class="section__container">
         <div class="content">
-          <p class="subtitle">HELLO</p>
-          <h1 class="title">
-            I'm <span>Carlo<br /></span>
-          </h1>
-          <p class="description">
-            I'm a mobile app developer with more than 4 years of experience in developing native Android applications, 
-mainly mobile banking applications.<br><br>I also worked on personal side project Android apps: <a href="https://play.google.com/store/apps/details?id=com.carlodips.soberup">Sober Up - Addiction Tracker</a> and <a href="https://play.google.com/store/apps/details?id=dev.carlodips.notes_compose">Cc Notes</a>.
-          </p>
+          <p class="subtitle">Hello, my name is</p>
+          <h1 class="title"><span>Carlo Dipasupil</span></h1>
           <!-- <div class="action__btns">
             <button class="contact me">Contact Me</button>
           </div> -->
         </div>
-        
+
       </div>
     </section>
+
+    <!-- <section class="s2">
+      <div class="main-container">
+        <div class="greeting-wrapper">
+          <p>Hi, I'm</p>
+          <h1>Carlo Dipasupil</h1>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="s2">
+      <div class="main-container">
+        <h4>About Me</h4>
+
+          <p>I'm an Android Developer with 5 years of experience in designing and developing native Android applications.</p>
+
+          <p>Currently, I'm part of a team of developers working on several mobile banking applications in the Philippines.</p>
+
+          <p>Aside from work-related projects, I also built personal projects as a way to hone my skills and also just for fun.</p>
+
+          <p>I graduated with a degree in Bachelor of Science in Information Technology Specializing in Web and Mobile App Development in the University of Santo Tomas.</p>
+
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="main-container">
+        <div class="skills-wrapper">
+
+          <div class="left-column">
+              <h4>Skills</h4>
+              <p><b>Android Development</b></p>
+              <li><b>Main Programming Languages:</b> Kotlin, Java</li>
+              <li><b>IDE:</b> Android Studio</li>
+              <li><b>Technologies:</b> MVVM, Dagger, Hilt, Koin, Retrofit, Coroutines, Jetpack Compose, Room Database, Moshi, XML, LiveData, Flows, OkHttp, Maps API</li>
+              <li><b>Others:</b> Git, JSON, Postman, Firebase Crashlytics, Play Store Deployment</li>
+          </div>
+          <div class="right-column">
+          </div>                                                            
+        </div>
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="main-container">
+        <h4>Work History</h4>
+              <li><b>Analyst Programmer</b></li>
+              <li>TeraSystem, Inc. August 2019 - Present</li>
+              <li>● Working as an Android Developer on several mobile banking app projects.
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="main-container">
+        <!-- <h4 style="text-align: center;">My Personal Projects</h4> -->
+        <h4>My Personal Projects</h4>
+
+        <div class="post-wrapper">
+
+            <div>
+              <div class="post">
+                <img class="thumbnail"src="images/sober_up_icon.png">
+                <div class="post-preview">
+                  <h6 class="post-title">Sober Up - Addiction Tracker</h6>
+                  <p class="post-intro">Keep track of your progress since you started your journey in defeating a certain addiction or unhealthy habit.</p>
+                  <p><a href="https://play.google.com/store/apps/details?id=com.carlodips.soberup">Play Store Link</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="post">
+                <img class="thumbnail"src="images/cc_notes_icon.png">
+                <div class="post-preview">
+                  <h6 class="post-title">Cc Notes - Simple Notepad</h6>
+                  <p class="post-intro">A simple note-taking app.</p>
+                  <p><a href="https://play.google.com/store/apps/details?id=dev.carlodips.notes_compose">Play Store Link</a></p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <script>
+      const toggleBtn = document.querySelector('.toggle-btn')
+      const toggleBtnIcon = document.querySelector('.toggle-btn i')
+      const dropdownMenu = document.querySelector('.dropdown-menu')
+
+      toggleBtn.onclick = function () {
+        dropdownMenu.classList.toggle('open')
+
+        const isOpen = dropdownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen 
+        ? 'fa-solid fa-xmark' 
+        : 'fa-solid fa-bars'
+      }
+    </script> 
+
   </body>
 </html>
